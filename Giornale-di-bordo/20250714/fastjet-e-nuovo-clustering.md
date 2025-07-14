@@ -36,3 +36,5 @@ int main () {
   }
 }
 ```
+
+Qui usa tre particelle!!! create sul momento. Il codice usa `PseudoJet(px,py,pz,E)` Dovrà quindi estrarre le particelle dal file root e con esso prendere px, py,pz, E della particella e inserirla. Ora riporto il codice che ho usato (Se riesco a farlo ovviamente).
