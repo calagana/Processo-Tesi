@@ -10,5 +10,6 @@ Questo permette di ottenere intervalli di confidenza (in alto e in basso) per lâ
 sigma = sqrt(p(1-p)/n).
 ******************
 
+DOMANI DEVI RIUSCIRE A METTERE LE BARRE DI ERRORE. AL MOMENTO NON RIESCO E DEVO ANDARE A FARE LA SPESA CHE SE NO MUOIO DI FAME PENSO
 â€‹
  .
