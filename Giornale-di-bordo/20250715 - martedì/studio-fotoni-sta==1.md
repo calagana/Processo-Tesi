@@ -102,3 +102,4 @@ int main() {
 ```
 
 In realtà così ne trova 40000, ne mancano altri 40k che non saprei precisamente da cosa vengono. Mi metto a cercare di capirlo, basta vedere la storia e l'ultimo elemento che li ha prodotti, vediamo da dove spuntano va.
+Lascio perdere questo studio. è secondario, più un controllo e serve più tempo di quello che vale suppongo. Faccio lo studio sull'efficienza, aggiungo le incertezze e company.
