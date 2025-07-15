@@ -100,3 +100,5 @@ int main() {
   return 0;
 }
 ```
+
+In realtà così ne trova 40000, ne mancano altri 40k che non saprei precisamente da cosa vengono. Mi metto a cercare di capirlo, basta vedere la storia e l'ultimo elemento che li ha prodotti, vediamo da dove spuntano va.
