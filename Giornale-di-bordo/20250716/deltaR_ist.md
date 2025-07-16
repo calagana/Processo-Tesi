@@ -1,5 +1,5 @@
 Prima di vedere il codice di federico nello specifico, devo studiare la distribuzione di DeltaR. Il codice in c++ che lo fa è il seguente. molto base ma funzionale. Nota che ho iniziato a lavorare direttamente con gli istogrammi e non con i vettori
-'''
+```
 #include <TH1F.h>
 #include "pquark.h"
 #include <TFile.h>
@@ -105,4 +105,6 @@ int main() {
 
   return 0;
 }
-'''
+```
+
+Successivamente ho fatto una cosa più bruttarella ma volevo vedere. Il grafico va bene, ma volevo provare a fittarlo, per vedere il valore massimo. In realtà non so se serva necessariamente, con 0.1 pare un valore ragionevole. Comunque ho copiato i deltaR facendomeli stampare, li ho copiati in python nel file Fit delta R , e lì ho fittato con una gaussiana. non viene esattamente benissimo diciamo... 
