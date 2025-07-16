@@ -1,6 +1,6 @@
 OBIETTIVO DEL CODICE: VEDO I GRAFICI CHE FA, CON LE INCERTEZZE E "PERCHè" DICIAMO
 | Tipo Grafico                           | Asse Y (cosa rappresenta)                                       | Errore Y (incertezza)                                                                                           |
-|----------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | **TH2F** (es. EnergyResolution2D)      | è istogramma 2D, cioè con 3 assi\Distribuzione grezza di E_reco / E_gen in funzione di ET_gen o η | Nessun errore esplicito (è un istogramma 2D usato per proiezioni successive)                                    |
 | **TProfile** (es. EnergyResolutionProfile) | Media di E_reco / E_gen in ciascun bin                         | Errore sulla media: sigma / √N, dove sigma è la deviazione standard nel bin e N è il numero di eventi nel bin   |
 | **TGraphErrors** (DCB - RespGraph)     | Valore centrale μ del fit Double Crystal Ball (risposta media)  | Errore su μ dal fit: errore simmetrico (es. ±0.01)                                                              |
