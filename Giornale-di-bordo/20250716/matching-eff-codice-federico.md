@@ -1,0 +1,10 @@
+OBIETTIVO DEL CODICE: VEDO I GRAFICI CHE FA, CON LE INCERTEZZE E "PERCHè" DICIAMO
+| Tipo Grafico                     | Asse Y (cosa rappresenta)                                     | Errore Y (incertezza)                                                                                         |
+|---------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **TH2F** (es. EnergyResolution2D) | Distribuzione grezza di \( E_{\text{reco}} / E_{\text{gen}} \) in funzione di \( E_{T\text{gen}} \) o \(\eta\) | Nessun errore esplicito (è un istogramma 2D usato per proiezioni successive)                                   |
+| **TProfile** (es. EnergyResolutionProfile) | Media di \( E_{\text{reco}} / E_{\text{gen}} \) in ciascun bin | Errore sulla media: \(\sigma / \sqrt{N}\), dove \(\sigma\) è la deviazione standard nel bin e \(N\) il numero di eventi nel bin |
+| **TGraphErrors** (DCB - RespGraph) | Valore centrale \(\mu\) del fit Double Crystal Ball (risposta media) | Errore su \(\mu\) dal fit: \(\delta \mu\) (simmetrico)                                                        |
+| **TGraphErrors** (DCB - ResGraph) | Risoluzione relativa: \( \frac{0.5(\sigma_L + \sigma_R)}{\mu} \times 100\% \) | Errore propagato usando formule specifiche (dipende da \(\sigma_L, \sigma_R, \mu\) e relativi errori)           |
+| **TGraphAsymmErrors** (Cruijff - RespGraphCru) | Valore centrale \(\mu\) del fit Cruijff (risposta media)        | Errore su \(\mu\) dal fit, può essere asimmetrico                                                             |
+| **TGraphAsymmErrors** (Cruijff - ResGraphCru) | Risoluzione relativa: \( \frac{0.5(\sigma_L + \sigma_R)}{\mu} \times 100\% \) | Errore simile a DCB, ma con possibili asimmetrie a seconda del fit Cruijff                                    |
+| **TGraphErrors** (PercentageHits_EtaGraph) | Percentuale di eventi in ciascun bin di \(\eta\) rispetto al totale | Errore binomiale: \(\sqrt{\frac{N (N_{\text{tot}} - N)}{N_{\text{tot}}^3}} \times 100\%\)                       |
