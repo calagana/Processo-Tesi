@@ -14,3 +14,6 @@ I grafici sono fatti, sono in Desktop/immagini_bin_energia_ricostruite_20250717.
 5) Preso o il mu del fit o la mediana, costruisco il plot. 
 6) Nel caso abbia il fit per quel bin, l'incertezza associata al bin è quella del fit (suppongo l'ampiezza sigma della gaussiana centrale della dcb). Per la mediana probabilmente metterò la deviazione standard. Ora guarderò e farò sapere!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+Prova a re-runnarlo, ma al momento ha problemi, dice che ci sono parametri vuoti e boh problemi nella def della mediana? Non so bene perchè. Domani guarda va.
+Crea un'immagine (dentro immagini quark), che ha efficienze maggiori di 1... controlla bene che è successo va
+
