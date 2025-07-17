@@ -10,8 +10,7 @@ I grafici sono fatti, sono in Desktop/immagini_bin_energia_ricostruite_20250717.
 5) Faccio fit e stampo i valori. !!!!!!!! Occhio! molti bin hanno troppi pochi eventi per il momento! quindi non posso fare il fit per tutti i bin. Per quelli con troppi pochi eventi (mo devo vedere quanto sia troppi pochi), calcolo direttamente la mediana senza fare tutto ciò, tanto non ha senso.
 
 ###### ejetequark_total.cpp
-... (inizio è uguale fino al punto 4 del codice precedente)
+... (inizio è uguale fino al punto 4 del codice precedente)\
 5) Preso o il mu del fit o la mediana, costruisco il plot. 
 6) Nel caso abbia il fit per quel bin, l'incertezza associata al bin è quella del fit (suppongo l'ampiezza sigma della gaussiana centrale della dcb). Per la mediana probabilmente metterò la deviazione standard. Ora guarderò e farò sapere!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-6
