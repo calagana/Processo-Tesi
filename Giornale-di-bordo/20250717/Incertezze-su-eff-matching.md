@@ -1,3 +1,4 @@
+## binvar_effmatching.cpp
 Apro binvar_effmatching.cpp, bisogna mettere l'incertezza calcolata con TEfficiency come scritto ieri nel programma "per domani"
 
 Ho messo l'incertezza e oggi ho fatto il grafico. Vorrei capire come cavolo l'ha calcolata questa incertezza. 
