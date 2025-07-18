@@ -17,7 +17,7 @@ dict.h
 
 Purtroppo non mi ricordo come va runnato, ma dopo averlo fatto dorebbe averti creato un .cxx. Con quest compili con:
 
-g++ nome_programma.cpp dict.cxx `root-config --cflags --libs` -o nome_programma
+<pre>g++ nome_programma.cpp dict.cxx `root-config --cflags --libs` -o nome_programma</pre>
 
 
 
