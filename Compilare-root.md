@@ -20,7 +20,9 @@ Purtroppo non mi ricordo come va runnato, ma dopo averlo fatto dorebbe averti cr
 g++ nome_programma.cpp dict.cxx `root-config --cflags --libs` -o nome_programma
 
 
-<pre> g++ nome_programma.cpp dict.cxx `root-config --cflags --libs` -o nome_programma </pre>
+
+Se necessario anche pquark.cpp:
+<pre>g++ nome_programma.cpp pquark.cpp dict_vectorvectorint.cxx `root-config --cflags --libs` -o nome_programma </pre>
 
 
 Compilare per fastjet invece devi fare:
