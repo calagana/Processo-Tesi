@@ -5,3 +5,5 @@ Bin per bin per il momento l'incertezza calcolata è quella automatica di TH1F o
 Mo non sono sicurissimo che questo vada bene in realtà... Ma la domanda è, quanto ci interessa? In realtà a vederli quei grafici sono quelli che sembrano più corretti di tutti. Non so benissimo servirebbe parlare con i professori, più che altro per chiedere come mettere le incertezze.
 Il discorso è: pure che io aumento le incertezze perchè al momento sono sottostimate (causando l'alto chi2), ma quanto importerebbe? Non le userei mai più quasi. Non è che aumentano il valore dell'incertezza del fit ad esempio, che alla fine è quello che ci interessa.
 In realtà ora che ci penso potrebbe aumentarla. Il fit è fatto per minimizzare il chi2, e se la sigma aumenta, forse otterrei altri valori (anche se mi sembra difficile vengano eccessivamente lontani da quello che ho adesso).
+
+Ho provato a far rifare il fit più volte e i fit successivi sono fatti tra mu-sigma,mu+sigma sostanzialmente. Non è cambiato nulla. fuck
