@@ -1,2 +1,7 @@
 Inizialmente per trovare l'asse di thrust ho semplicemente quello che credo sia chiamato grid scan, cioè parto da un versore in direzione casuale, calcolo se quello fosse l'asse quanto mi verrebbe il T (cioè la somma dei prodotti p*n, la definizione insomma), poi vario leggermente phi o eta e riguardo. Sono insomma due cicli innestati, ma è lentissimo, perchè fa come numero di interazioni N_eventi * N_steps_eta * N_steps_phi (con step di 0.01 per entrambi gli angoli, questo è 600 (da -3 a 3) * 628 (da -3.14 a 3.14) * 10000 (Neventi) = 3 miliardi e qualcosa. Insomma non si può fare).\\
 Cercando su internet invece algoritmi più veloci per l'asse di thrust ho trovato questo "Approccio iterativo stile sphericity/thrust (generico 3D)". Come funziona?
+
+
+Allora, sto algoritmo funziona, è scritto in pquark.cpp . Il problema è che manco questo dà soluzioni corrette con deltaR che vanno a 0. Secondo me il problema viene dal solito sta che dà le particelle stabili ma non sono figlie dei quark per forza mannaggia mannaggia. Sto provando a fare lo scan con solo le particelle stabili e che sono figlie dei due quark, ma al momento non mi viene nulla. Quindi boh ti lascio così al momento. 
+pquark.cpp ci sta il codice find_thrust_axis . come vedrai al momento ciclo solo sulle particelle daughter dei quark primari. se anche facendo così il grafico prodotto da deltaR_thrust,cpp fa cagare ricontrolla con sta e basta, non so bene quale sia il problena e cosa sta accadendo esattamente...
+Domani o dopo zante, probabilmente domani.
