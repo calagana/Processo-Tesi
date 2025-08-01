@@ -18,3 +18,5 @@ Sono sia i dati di cc che di uu perchè ho messo il file HiForestMiniAOD_patjets
 
 
 <img width="796" height="572" alt="deltaR_thrust_axis" src="https://github.com/user-attachments/assets/cdb74726-c9a1-45da-aa70-9157338f109e" />
+
+Utilizzare uubar mi dà un picco lontano dallo 0! Probabilmente a questo punto proverrà dalla composizione dei jet? Supporrei che ci siano i neutrini ad esempio, ma in realtà essendo gen dovrebbero comunque essere considerati.
