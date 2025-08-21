@@ -1,0 +1,2 @@
+Allora, ho rifatto tutto il conto da capo per le incertezze calcolate in modo diverso. Prima prendevo i dati che provenivano dal fit direttamente, compresa la sigma e l'incertezza sulla sigma.
+Non si vedeva benissimo però cheil metodo del thrust axis fosse migliore! perciò sto provando a fare il conto con la sigma in modo diverso. La mu rimane uguale, ma adesso come sigma prendo il valore (asimmetrico) che mi dia 
