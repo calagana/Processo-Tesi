@@ -8,3 +8,9 @@ E i grafici che ne escono sono:
 <img width="796" height="572" alt="total_sigma" src="https://github.com/user-attachments/assets/decfd4b9-0462-4635-abbb-14dbbf31f569" />
 <img width="796" height="572" alt="relative_error" src="https://github.com/user-attachments/assets/b48ec469-3df1-4061-875f-5b5d6f0e36c9" />
 
+<img width="796" height="572" alt="mu_comparison_asymmetric" src="https://github.com/user-attachments/assets/3473aad1-01e5-44b7-a755-187ecd148f85" />
+
+
+Non mi convince così tanto, non sono sicurissimo abbia funzionato, vanno in molte oltre l'1! Finchè era solo il thrust axis potevo anche accettarlo, ma così non mi fa impazzire
+
+CERCA DI CAPIRE IL PERCHè! DEVI VEDERE BENE LA FUNZIONE CHE CALCOLA LE INCERTEZZE, PERCHè COSì è EVIDENTEMENTE SBAGLIATO, I FIT DI r1.6 VANNO RARAMENTE OLTRE 1, INVECE CON 1 SIGMA IN QUESTO GRAFICO ALCUNI CI VANNO! SENZA SENSO
